@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  text-align: center;
+  color: orangered
+}
+
+#change-due {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0 20px;
+}
+
+label {
+  font-size: 24px;
+  font-weight: 700;
+  color: orangered;
+}
+
+.user-input {
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+  width: 200px;
+  border: 2px solid #FF4500;
+}
+
+.price-screen {
+  border: 2px solid #FF4500;
+  background-color: black;
+  height: 50px;
+  width: 200px;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#price {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.check-btn-styles {
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #FF4500;
+  border-color: #FFF;
+  border-width: 1px;
+  border-radius: 20px;
+}
+
+.remaining {
+  font-size: 1.1rem;
+  background-color: black;
+  width: 100%;
+  height: 95%;
+  color: white;
+  padding: 10px;
+  margin: 16px 0 0 0;
+}
